@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&display=swap');
+
+.home-page {
+  min-height: 100vh;
+  overflow-x: clip;
+  color: #263746;
+  background: #f6f9fb;
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-page,
+.home-page *,
+.home-page *::before,
+.home-page *::after {
+  box-sizing: border-box;
+}
+
+.home-page * {
+  font-family: inherit !important;
+}
+
+.home-page * {
+  margin: 0;
+  padding: 0;
+}
+
+.home-page img {
+  display: block;
+  max-width: 100%;
+}
+
+.home-page button,
+.home-page a {
+  font: inherit;
+  cursor: pointer;
+}
+
+.home-page h1,
+.home-page h2,
+.home-page h3,
+.home-page h4,
+.home-page h5,
+.home-page h6 {
+  line-height: 1.15;
+}
+
+.home-page ::selection {
+  color: #173042;
+  background: rgba(233, 154, 0, 0.25);
+}

@@ -1,0 +1,92 @@
+
+        .services-section {
+          padding: clamp(72px, 9vw, 120px) 0 56px;
+          background: #f6f9fb;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .services-heading {
+          max-width: 1200px;
+          margin: 0 auto 32px;
+          padding: 0 24px;
+          text-align: center;
+        }
+        .services-heading .services-section-title {
+          margin-bottom: 0;
+          color: #203746;
+          font-size: clamp(2.2rem, 4vw, 3.5rem);
+        }
+        @media (max-width: 700px) {
+          .services-section { padding-top: 64px; }
+        }
+      
+.services-carousel {
+  width: 100%;
+  height: 560px;
+}
+
+@media (max-width: 700px) {
+  .services-carousel {
+    height: 440px;
+  }
+}
+
+.services-section {
+  background-color: #f6f9fb !important;
+}
+
+.services-section {
+  background-image: linear-gradient(180deg, #f6f9fb, #edf4f6 50%, #f6f9fb) !important;
+}
+
+.services-section-title {
+  color: #203746 !important;
+}
+
+.services-section-eyebrow {
+  border-color: rgba(202, 121, 0, 0.22) !important;
+  color: #a86600 !important;
+}
+
+.services-section-eyebrow {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #f59e0b;
+  margin-bottom: 16px;
+}
+
+.services-section-title {
+  font-size: clamp(2rem, 4vw, 3rem);   /* bigger + responsive */
+  font-weight: 900;
+  line-height: 1.15;
+  color: #fff;
+  margin: 0 0 20px;
+  letter-spacing: -0.02em;
+}
+.services-section-eyebrow {
+  display: inline-block;
+  padding: 6px 18px;
+  background: rgba(245,158,11,0.1);
+  border: 1px solid rgba(245,158,11,0.2);
+  border-radius: 999px;
+  color: #f59e0b;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.services-section-title {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 18px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
